@@ -1,10 +1,12 @@
-import React from 'react';
-import styles from './app.component.css';
+import React, { useState } from 'react';
+
+import sound from './audio/doubt.mp3';
+import AudioPlayer from './AudioPlayer';
 
 const App = () => {
   return (
-    <div className={styles.App}>
-      <h1>We're parsing this project down</h1>
+    <div>
+      <AudioPlayer src={sound} />
     </div>
   );
 };
