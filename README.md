@@ -1,3 +1,3 @@
 # Custom React Starter
 
-This is a simple React project starter with basic Webpack configurations for React and CSS Modules.
+An audio player component that will include a visualiser for the audio as it is playing.
